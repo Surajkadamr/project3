@@ -1,0 +1,160 @@
+/* body */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* title section */
+#title {
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+}
+/* nav-bar changes  */
+.navbar {
+    padding: 3% 7%;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding-right: 65%;
+}
+
+.nav-item {
+    font-weight: 200;
+}
+
+/* title */
+.title-h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.row1 {
+    padding-top: 3%;
+    text-align: left;
+    padding-left: 10%;
+}
+.btn1 {
+    margin: 5% 2% 15% 2%;
+    font-weight: 800;
+}
+
+.iphone-img {
+    transform: rotate(25deg);
+    position: absolute;
+    width: 18%;
+    margin-left: 10%;
+    z-index: 0;
+}
+
+@media (max-width:1028px) {
+    .iphone-img {
+        position: static;
+        transform: rotate(0);
+        width: auto;
+        margin-left: 0%;
+    }
+    .title-h1 {
+        font-size : 5rem;
+    }
+    .row1 {
+        text-align: center;
+        padding-left: 0%;
+    }
+}
+
+/* features */
+#features {
+    padding: 10% 7%;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.features-h {
+    font-weight: 700;
+}
+
+.features-p {
+    font-weight: 200;
+    color: grey;
+}
+
+.fa-4x {
+    padding-bottom: 5%;
+    color: #ef8172;
+}
+
+.fa-4x:hover {
+    color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+    padding: 2% 0% 2% 0%;
+}
+
+.testimonials-h {
+    font-weight: 800;
+    padding: 7% 15% 0% 15%;
+}
+
+.testimonials-img {
+    border-radius: 100%;
+    width: 9%; 
+    margin: 3%;
+}
+
+/* press section */
+#press {
+    background-color: #ef8172;
+}
+
+.img-press {
+    width: 13%;
+    margin: 2% 25px 5% 25px;
+}
+
+/* pricing section */
+
+#pricing {
+    padding: 7% 10%;
+}
+
+.pricing-h2 {
+    font-weight: 800;
+}
+.pricing-p {
+    font-weight: 200;
+    margin-bottom: 5%;
+}
+
+/* call to action */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 5% 15% 7% 15%;
+}
+
+.cta-h3 {
+    font-weight: 900;
+    font-size: 4rem;
+    color: #fff; 
+}
+
+.cta-btn {
+    margin: 30px 15px ;
+}
+
+#footer {
+    margin:7%;
+}
+
+.foot {
+    padding: 1% 1% 2% 1%;
+}
